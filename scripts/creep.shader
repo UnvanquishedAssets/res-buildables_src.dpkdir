@@ -5,12 +5,11 @@ gfx/buildables/creep/creep
 	twoSided
 	{
 		clampmap gfx/buildables/creep/creep_d
+		specularMap gfx/buildables/creep/creep_s
+		normalMap gfx/buildables/creep/creep_n
 		blendfunc blend
-		blend diffuseMap
 		rgbGen identity
 		alphaGen vertex
 		alphaFunc GE128
 	}
-	specularMap gfx/buildables/creep/creep_s
-	normalMap gfx/buildables/creep/creep_n
 }

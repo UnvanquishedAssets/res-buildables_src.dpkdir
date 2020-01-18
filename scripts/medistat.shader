@@ -1,17 +1,13 @@
 models/buildables/medistat/medistat
 {
 	qer_editorImage models/buildables/medistat/medistat_d
-	diffuseMap models/buildables/medistat/medistat_d
-	normalMap models/buildables/medistat/medistat_n
 	{
-		stage specularMap
-		map models/buildables/medistat/medistat_s
+		diffuseMap  models/buildables/medistat/medistat_d
+		normalMap   models/buildables/medistat/medistat_n
+		specularMap models/buildables/medistat/medistat_s
 		specularExponentMin 10
 		specularExponentMax 25
-	}
-	{
-		map models/buildables/medistat/medistat_a
-		blendfunc add
+		glowMap models/buildables/medistat/medistat_a
 	}
 }
 

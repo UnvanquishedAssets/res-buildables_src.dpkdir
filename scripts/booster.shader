@@ -1,10 +1,12 @@
 models/buildables/booster/body
 {
 	qer_editorImage models/buildables/booster/booster_d
-	diffuseMap      models/buildables/booster/booster_d
-	normalMap       models/buildables/booster/booster_n
-	specularMap     models/buildables/booster/booster_s
-	glowMap         models/buildables/booster/booster_a
+	{
+		diffuseMap  models/buildables/booster/booster_d
+		normalMap   models/buildables/booster/booster_n
+		specularMap models/buildables/booster/booster_s
+		glowMap     models/buildables/booster/booster_a
+	}
 }
 
 gfx/buildables/booster/spore

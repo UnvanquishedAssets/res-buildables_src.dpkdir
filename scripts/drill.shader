@@ -1,9 +1,11 @@
 models/buildables/drill/drill
 {
 	qer_editorImage models/buildables/drill/drill_d
-	diffuseMap models/buildables/drill/drill_d
-	normalMap models/buildables/drill/drill_n
-	specularMap models/buildables/drill/drill_s
+	{
+		diffuseMap  models/buildables/drill/drill_d
+		normalMap   models/buildables/drill/drill_n
+		specularMap models/buildables/drill/drill_s
+	}
 	// white lamp on top
 	{
 		map models/buildables/drill/drill_top_a
@@ -16,16 +18,15 @@ models/buildables/drill/drill
 		blendfunc add
 		rgb       .85 .85 .85
 	}
-
 	when destroyed models/buildables/drill/drill_dead
 }
 
 models/buildables/drill/drill_dead
 {
-	diffuseMap models/buildables/drill/drill_d
-	normalMap models/buildables/drill/drill_n
+	qer_editorImage models/buildables/drill/drill_d
 	{
-		stage specularMap
-		map models/buildables/drill/drill_s
+		diffuseMap  models/buildables/drill/drill_d
+		normalMap   models/buildables/drill/drill_n
+		specularMap models/buildables/drill/drill_s
 	}
 }

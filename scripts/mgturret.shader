@@ -1,9 +1,11 @@
 models/buildables/mgturret/turret
 {
 	qer_editorImage models/buildables/mgturret/turret_d
-	diffuseMap  models/buildables/mgturret/turret_d
-	normalMap   models/buildables/mgturret/turret_n
-	specularMap models/buildables/mgturret/turret_s
+	{
+		diffuseMap  models/buildables/mgturret/turret_d
+		normalMap   models/buildables/mgturret/turret_n
+		specularMap models/buildables/mgturret/turret_s
+	}
 }
 
 // legacy turret
