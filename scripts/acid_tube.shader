@@ -2,7 +2,6 @@ models/buildables/acid_tube/acid_tube
 {
 	qer_editorImage models/buildables/acid_tube/acid_tube_d
 	qer_alphaFunc greater .5
-	cull none
 	{
 		diffuseMap  models/buildables/acid_tube/acid_tube_d
 		normalMap   models/buildables/acid_tube/acid_tube_n
