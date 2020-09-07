@@ -1,0 +1,18 @@
+======================================Unvanquished Turret===============*
+Date: 6.07.2014 (DD:MM:YYYY)
+Format: iqm
+Tris: ~2700 
+
+Textures: Diffuse,Normal,Specular
+Size: 1024px
+
+Animations: construct,idle,powerdown,idle_unpowered,destroy,destroyed,destroy_unpowered
+
+
+Author: chris807 contact: cgart.chris807[at]gmail.com | tinyurl.com/chris807
+License: model and textures licensed under CC BY-SA 4.0
+
+Note: This information has to be included if you redistribute theses assets.
+Place this file near the assets or append this text to your own 
+license/readme file. Thanks.
+========================================================================*
