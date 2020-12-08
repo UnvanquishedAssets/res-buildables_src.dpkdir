@@ -1,6 +1,7 @@
 models/buildables/booster/body
 {
 	qer_editorImage models/buildables/booster/booster_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/booster/booster_d
 		normalMap   models/buildables/booster/booster_n
@@ -13,6 +14,7 @@ gfx/buildables/booster/spore
 {
 	cull none
 	entityMergable
+	imageMinDimension 128
 	{
 		map gfx/buildables/booster/spore
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA

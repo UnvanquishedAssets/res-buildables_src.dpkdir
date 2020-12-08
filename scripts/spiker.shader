@@ -1,6 +1,7 @@
 models/buildables/spiker/spiker
 {
 	qer_editorImage models/buildables/spiker/spiker_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/spiker/spiker_d
 		normalMap   models/buildables/spiker/spiker_n

@@ -1,5 +1,6 @@
 models/fx/metal_gibs/metal_gibs
 {
+	imageMinDimension 128
 	{
 		map models/fx/metal_gibs/metal_gibs
 		rgbGen lightingDiffuse
@@ -10,4 +11,3 @@ models/fx/metal_gibs/metal_gibs
 		rgbGen wave sin 0 1 0 .0625
 	}
 }
-

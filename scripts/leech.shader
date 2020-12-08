@@ -1,6 +1,7 @@
 models/buildables/leech/body
 {
 	qer_editorImage models/buildables/leech/body_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/leech/body_d
 		normalMap   models/buildables/leech/body_n
@@ -11,6 +12,7 @@ models/buildables/leech/body
 models/buildables/leech/roots
 {
 	qer_editorImage models/buildables/leech/roots_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/leech/roots_d
 		normalMap   models/buildables/leech/roots_n

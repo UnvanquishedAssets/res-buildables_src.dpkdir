@@ -1,6 +1,7 @@
 models/buildables/drill/drill
 {
 	qer_editorImage models/buildables/drill/drill_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/drill/drill_d
 		normalMap   models/buildables/drill/drill_n
@@ -24,6 +25,7 @@ models/buildables/drill/drill
 models/buildables/drill/drill_dead
 {
 	qer_editorImage models/buildables/drill/drill_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/drill/drill_d
 		normalMap   models/buildables/drill/drill_n

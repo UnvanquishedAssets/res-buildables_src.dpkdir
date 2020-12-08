@@ -1,6 +1,7 @@
 models/buildables/medistat/medistat
 {
 	qer_editorImage models/buildables/medistat/medistat_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/medistat/medistat_d
 		normalMap   models/buildables/medistat/medistat_n
@@ -13,6 +14,7 @@ models/buildables/medistat/medistat
 
 models/buildables/medistat/rings2
 {
+	imageMinDimension 128
 	{
 		map models/buildables/medistat/noise
 		tcMod scale 6 6
@@ -30,6 +32,7 @@ models/buildables/medistat/rings2
 
 models/buildables/medistat/display
 {
+	imageMinDimension 128
 	qer_editorImage models/buildables/medistat/display1
 	{
 		AnimMap .8 models/buildables/medistat/display1 models/buildables/medistat/display2 models/buildables/medistat/display3 models/buildables/medistat/display4 models/buildables/medistat/display5 models/buildables/medistat/display6 models/buildables/medistat/display7 models/buildables/medistat/display8
@@ -41,6 +44,7 @@ models/buildables/medistat/display
 
 models/buildables/medistat/displayH
 {
+	imageMinDimension 128
 	{
 		AnimMap 1 models/buildables/medistat/display-h1 models/buildables/medistat/display-h2 models/buildables/medistat/display-h3
 		blendfunc add
@@ -49,6 +53,7 @@ models/buildables/medistat/displayH
 
 models/buildables/medistat/displayD
 {
+	imageMinDimension 128
 	{
 		AnimMap 1 models/buildables/medistat/display1 models/buildables/medistat/display-d1 models/buildables/medistat/display-d2 models/buildables/medistat/display1 models/buildables/medistat/display-d1 models/buildables/medistat/display-d2 models/buildables/medistat/display-d1 models/buildables/medistat/display-d2
 		blendfunc add
@@ -59,6 +64,7 @@ models/buildables/medistat/rings
 {
 	qer_editorImage models/buildables/medistat/cross_p
 	qer_trans .3
+	imageMinDimension 128
 	{
 		map models/buildables/medistat/noise
 		tcMod scale 5 5
@@ -94,6 +100,7 @@ models/buildables/medistat/scan
 {
 	// do not enable that, it crashes netradiant
 	// qer_editorImage models/buildables/medistat/noise
+	imageMinDimension 128
 	{
 		map models/buildables/medistat/noise
 		tcMod scale 5 5

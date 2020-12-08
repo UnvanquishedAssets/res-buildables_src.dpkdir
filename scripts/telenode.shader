@@ -1,6 +1,7 @@
 models/buildables/telenode/telenode
 {
 	qer_editorImage models/buildables/telenode/telenode_d
+	imageMinDimension 128
 	{
 		diffuseMap	models/buildables/telenode/telenode_d
 		normalMap	models/buildables/telenode/telenode_n
@@ -14,6 +15,7 @@ models/buildables/telenode/telenode
 models/buildables/telenode/telenode_dead
 {
 	qer_editorImage models/buildables/telenode/telenode_d
+	imageMinDimension 128
 	{
 		diffuseMap	models/buildables/telenode/telenode_d
 		normalMap	models/buildables/telenode/telenode_n
@@ -27,6 +29,7 @@ models/buildables/telenode/effect
 	qer_trans .5
 	cull none
 	surfaceparm nolightmap
+	imageMinDimension 128
 	{
 		map   models/buildables/telenode/effect_d
 		blend blend

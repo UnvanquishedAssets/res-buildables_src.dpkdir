@@ -1,6 +1,7 @@
 models/buildables/reactor/reactor1
 {
 	qer_editorImage models/buildables/reactor/reactor_core_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/reactor/reactor_core_d
 		specularMap models/buildables/reactor/reactor_core_s
@@ -18,6 +19,7 @@ models/buildables/reactor/reactor1
 models/buildables/reactor/reactor1_dead
 {
 	qer_editorImage models/buildables/reactor/reactor_core_d
+	imageMinDimension 128
 	{
 		diffuseMap models/buildables/reactor/reactor_core_d
 		specularMap models/buildables/reactor/reactor_core_s
@@ -27,6 +29,7 @@ models/buildables/reactor/reactor1_dead
 models/buildables/reactor/reactor2
 {
 	qer_editorImage models/buildables/reactor/reactor_arm_d
+	imageMinDimension 128
 	{
 		diffuseMap  models/buildables/reactor/reactor_arm_d
 		normalMap   models/buildables/reactor/reactor_arm_n
@@ -49,6 +52,7 @@ models/buildables/reactor/reactor2
 
 models/buildables/reactor/reactor2_dead
 {
+	imageMinDimension 128
 	qer_editorImage models/buildables/reactor/reactor_arm_d
 	{
 		diffuseMap  models/buildables/reactor/reactor_arm_d
