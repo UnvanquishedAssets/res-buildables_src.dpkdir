@@ -1,6 +1,6 @@
 models/buildables/eggpod/eggpod
 {
-	qer_editorImage models/buildables/eggpod/eggpod_d
+	qer_editorImage models/buildables/eggpod/eggpod_p
 	{
 		diffuseMap  models/buildables/eggpod/eggpod_d
 		normalMap   models/buildables/eggpod/eggpod_n
