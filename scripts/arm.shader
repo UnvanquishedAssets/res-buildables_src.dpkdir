@@ -32,4 +32,3 @@ models/buildables/arm/screen
 		specularMap models/buildables/arm/screen_s
 	}
 }
-
