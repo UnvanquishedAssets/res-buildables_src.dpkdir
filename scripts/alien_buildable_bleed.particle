@@ -21,7 +21,7 @@ particles/buildables/alien_base/bleed
 
 			radius                0 5 8
 			alpha                 250 .85 0
-			rotation              0 ~-15 ~15
+			rotation              0 ~15 ~15
 			bounce                0
 			color                 0 { 1 1 .6 } -
 
