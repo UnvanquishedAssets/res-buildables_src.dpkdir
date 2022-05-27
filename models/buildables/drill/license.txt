@@ -1,4 +1,4 @@
-======================================Unvanquished Repeater=============*
+======================================Unvanquished Drill (formerly Repeater)=============*
 Date: 11.01.2015 (DD:MM:YYYY)
 Format: iqm
 Tris: ~5000 
