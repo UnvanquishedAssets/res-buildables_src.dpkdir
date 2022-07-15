@@ -21,7 +21,7 @@ particles/buildables/human_base/bleed
 
 			radius                0 5 8
 			alpha                 250 .75 0
-			rotation              0 ~-15 ~15
+			rotation              0 ~15 ~15
 			bounce                0
 			color                 0 { .8 .2 .2 } -
 
@@ -47,7 +47,7 @@ particles/buildables/human_base/bleed
 
 			radius                0 5 8
 			alpha                 250 .75 0
-			rotation              0 ~-15 ~15
+			rotation              0 ~15 ~15
 			bounce                0
 			color                 0 { .8 .2 .2 } -
 
