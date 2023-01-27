@@ -6,18 +6,18 @@ particles/buildables/alien_base/damaged
 		{
 			shader sync gfx/players/alien_base/green_acid
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 100
-			velocity          0 0 0 ~40
+			velocity 0 0 0 ~40
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 200
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 4 20
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -39,15 +39,15 @@ particles/buildables/alien_base/destroyed
 			shader sync gfx/players/alien_base/green_acid
 
 			displacement 0 0 0 ~70
-			normalDisplacement  80
+			normalDisplacement 80
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 30
-			velocity          0 0 -1 ~0
+			velocity 0 0 -1 ~0
 
 			radius 0 20 15
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -67,18 +67,18 @@ particles/buildables/alien_base/destroyed
 
 			displacement 0 0 40 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 300~75%
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 20 30
-			alpha  0 1 0
+			alpha 0 1 0
 			rotation 0 ~360 -
 			bounce .2
 
@@ -98,20 +98,20 @@ particles/buildables/alien_base/destroyed
 
 			displacement 0 0 40 ~0
 
-			velocityType      static
-			velocityDir       linear
+			velocityType static
+			velocityDir linear
 			velocityMagnitude 300~75%
-			velocity          0 0 1 ~60
+			velocity 0 0 1 ~60
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
-			radius          0 1 -
-			bounce          .2
-			bounceMark      1~1 16 gfx/buildables/creep/creep
-			bounceSound     ~1 models/weapons/lockblob/impact0
+			radius 0 1 -
+			bounce .2
+			bounceMark 1~1 16 gfx/buildables/creep/creep
+			bounceSound ~1 models/weapons/lockblob/impact0
 
 			lifeTime 5000~1000
 		}

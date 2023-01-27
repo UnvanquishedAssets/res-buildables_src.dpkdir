@@ -8,18 +8,18 @@ particles/buildables/booster/spore
 
 			displacement 0 0 0 0
 
-			velocityType      normal
-			velocityDir       linear
+			velocityType normal
+			velocityDir linear
 			velocityMagnitude 100~100%
-			velocity          0 0 0 ~90
+			velocity 0 0 0 ~90
 
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 100
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 10 400~20%
-			alpha  1000~100% .6~.1 0
+			alpha 1000~100% .6~.1 0
 			rotation 0 ~360 ~360
 			bounce 0
 

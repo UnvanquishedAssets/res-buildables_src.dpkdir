@@ -3,8 +3,8 @@ models/buildables/medistat/medistat
 	qer_editorImage models/buildables/medistat/medistat_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/buildables/medistat/medistat_d
-		normalMap   models/buildables/medistat/medistat_n
+		diffuseMap models/buildables/medistat/medistat_d
+		normalMap models/buildables/medistat/medistat_n
 		specularMap models/buildables/medistat/medistat_s
 		specularExponentMin 10
 		specularExponentMax 25

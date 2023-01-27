@@ -8,7 +8,7 @@ particles/buildables/mgturret/muzzleflash
 			displacement 0 2 0 ~0
 
 			radius 0 3 6
-			alpha  0 .4 0
+			alpha 0 .4 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -21,7 +21,7 @@ particles/buildables/mgturret/muzzleflash
 			displacement 0 2 0 ~0
 
 			radius 0 4 6
-			alpha  0 .4 0
+			alpha 0 .4 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -34,7 +34,7 @@ particles/buildables/mgturret/muzzleflash
 			displacement 0 2 0 ~0
 
 			radius 0 4 7
-			alpha  0 .3 0
+			alpha 0 .3 0
 			rotation 0 ~360 -
 			bounce 0
 
@@ -54,16 +54,16 @@ particles/buildables/mgturret/muzzleflash
 
 			displacement -8 -45 -2 0
 
-			velocityType      static_transform
-			velocityDir       linear
+			velocityType static_transform
+			velocityDir linear
 			velocityMagnitude 200~100
-			velocity          -1 0 .2 ~10
+			velocity -1 0 .2 ~10
 
 			// gravity
-			accelerationType      static
-			accelerationDir       linear
+			accelerationType static
+			accelerationDir linear
 			accelerationMagnitude 800
-			acceleration          0 0 -1 0
+			acceleration 0 0 -1 0
 
 			radius 0 1.1 -
 			bounce .7

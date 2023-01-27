@@ -3,21 +3,21 @@ models/buildables/drill/drill
 	qer_editorImage models/buildables/drill/drill_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/buildables/drill/drill_d
-		normalMap   models/buildables/drill/drill_n
+		diffuseMap models/buildables/drill/drill_d
+		normalMap models/buildables/drill/drill_n
 		specularMap models/buildables/drill/drill_s
 	}
 	// white lamp on top
 	{
 		map models/buildables/drill/drill_top_a
 		blendfunc add
-		rgbGen    wave sin 1 .85 .5 .08
+		rgbGen wave sin 1 .85 .5 .08
 	}
 	// small yellow lamps around
 	{
 		map models/buildables/drill/drill_around_a
 		blendfunc add
-		rgb       .85 .85 .85
+		rgb .85 .85 .85
 	}
 	when destroyed models/buildables/drill/drill_dead
 }
@@ -27,8 +27,8 @@ models/buildables/drill/drill_dead
 	qer_editorImage models/buildables/drill/drill_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/buildables/drill/drill_d
-		normalMap   models/buildables/drill/drill_n
+		diffuseMap models/buildables/drill/drill_d
+		normalMap models/buildables/drill/drill_n
 		specularMap models/buildables/drill/drill_s
 	}
 }

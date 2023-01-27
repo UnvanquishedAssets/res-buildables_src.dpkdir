@@ -3,8 +3,8 @@ models/buildables/mgturret/turret
 	qer_editorImage models/buildables/mgturret/turret_d
 	imageMinDimension 128
 	{
-		diffuseMap  models/buildables/mgturret/turret_d
-		normalMap   models/buildables/mgturret/turret_n
+		diffuseMap models/buildables/mgturret/turret_d
+		normalMap models/buildables/mgturret/turret_n
 		specularMap models/buildables/mgturret/turret_s
 	}
 }
