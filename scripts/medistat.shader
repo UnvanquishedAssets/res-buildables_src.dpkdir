@@ -10,6 +10,21 @@ models/buildables/medistat/medistat
 		specularExponentMax 25
 		glowMap models/buildables/medistat/medistat_a
 	}
+	when unpowered models/buildables/medistat/medistat_off
+	when destroyed models/buildables/medistat/medistat_off
+}
+
+models/buildables/medistat/medistat_off
+{
+	qer_editorImage models/buildables/medistat/medistat_d
+	imageMinDimension 128
+	{
+		diffuseMap models/buildables/medistat/medistat_d
+		normalMap models/buildables/medistat/medistat_n
+		specularMap models/buildables/medistat/medistat_s
+		specularExponentMin 10
+		specularExponentMax 25
+	}
 }
 
 models/buildables/medistat/rings2
