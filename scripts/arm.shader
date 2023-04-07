@@ -15,7 +15,7 @@ models/buildables/arm/arm
 models/buildables/arm/arm_off
 {
 	qer_editorImage models/buildables/arm/arm_d
-	imageMinDimension 128
+	imageMinDimension 256
 	{
 		diffuseMap models/buildables/arm/arm_d
 		normalMap models/buildables/arm/arm_n
