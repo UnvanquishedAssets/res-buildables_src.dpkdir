@@ -137,7 +137,7 @@ models/buildables/medistat/scan
 		tcMod scroll 0 .1
 		rgbGen const ( 0 .572549 .690196 )
 	}
-		{
+	{
 		map models/buildables/medistat/v_grid
 		tcMod scale 1 1
 		blendfunc add
