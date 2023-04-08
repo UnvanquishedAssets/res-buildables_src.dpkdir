@@ -54,6 +54,7 @@ models/buildables/medistat/display
 		blendfunc add
 	}
 	when idle2 models/buildables/medistat/displayH
+	when unpowered models/buildables/medistat/displayU
 	when destroyed models/buildables/medistat/displayD
 }
 
@@ -62,6 +63,14 @@ models/buildables/medistat/displayH
 	imageMinDimension 128
 	{
 		AnimMap 1 models/buildables/medistat/display-h1 models/buildables/medistat/display-h2 models/buildables/medistat/display-h3
+		blendfunc add
+	}
+}
+
+models/buildables/medistat/displayU
+{
+	{
+		map $blackImage
 		blendfunc add
 	}
 }
