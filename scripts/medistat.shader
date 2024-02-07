@@ -126,31 +126,17 @@ models/buildables/medistat/scan
 	// qer_editorImage models/buildables/medistat/noise
 	imageMinDimension 128
 	{
-		map models/buildables/medistat/noise
-		tcMod scale 5 5
-		blendfunc filter
-		rgbGen const ( .678431 .933333 .960784 )
-		tcMod scroll -.1 .1
-	}
-	{
-		map models/buildables/medistat/noise2
-		tcMod scale 1 1
-		blendfunc add
-		tcMod scroll -.1 -.1
-		rgbGen const ( 0 .572549 .690196 )
-	}
-	{
 		map models/buildables/medistat/h_grid
-		tcMod scale 1 1
-		blendfunc add
-		tcMod scroll 0 .1
+		tcMod scale 0.1 0.1
+		blendfunc GL_ONE_MINUS_SRC_ALPHA GL_ONE
 		rgbGen const ( 0 .572549 .690196 )
+		alphaGen const 0.75
 	}
 	{
 		map models/buildables/medistat/v_grid
-		tcMod scale 1 1
-		blendfunc add
-		tcMod scroll .1 0
+		tcMod scale 0.1 0.1
+		blendfunc GL_ONE_MINUS_SRC_ALPHA GL_ONE
 		rgbGen const ( 0 .572549 .690196 )
+		alphaGen const 0.75
 	}
 }
