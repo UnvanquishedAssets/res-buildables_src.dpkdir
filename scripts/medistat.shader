@@ -27,24 +27,6 @@ models/buildables/medistat/medistat_off
 	}
 }
 
-models/buildables/medistat/rings2
-{
-	imageMinDimension 128
-	{
-		map models/buildables/medistat/noise
-		tcMod scale 6 6
-		blendfunc filter
-		tcMod scroll -.1 .1
-	}
-	{
-		map models/buildables/medistat/noise
-		tcMod scale 4 4
-		blendfunc add
-		tcMod scroll .1 .1
-		rgbGen const ( 0 .572549 .690196 )
-	}
-}
-
 models/buildables/medistat/display
 {
 	imageMinDimension 128
