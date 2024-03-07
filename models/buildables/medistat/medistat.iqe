@@ -7366,7 +7366,7 @@ fm 548 552 553
 fm 552 537 553
 
 mesh "cross"
-material "models/buildables/medistat/rings"
+material "models/buildables/medistat/cross"
 vp -21.4500008 137.743896 -7.15000057
 vn 0 1 0
 vx -1 0 -6.0331995e-06 1

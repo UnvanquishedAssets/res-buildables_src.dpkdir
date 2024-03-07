@@ -84,9 +84,9 @@ models/buildables/medistat/displayD
 	}
 }
 
-models/buildables/medistat/rings
+models/buildables/medistat/cross
 {
-	qer_editorImage models/buildables/medistat/cross_p
+	qer_editorImage models/buildables/medistat/cross
 	qer_trans .3
 	imageMinDimension 128
 	{
