@@ -1,9 +1,9 @@
 models/buildables/drill/drill
 {
-	qer_editorImage models/buildables/drill/drill_d
+	qer_editorImage models/buildables/drill/drill
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/drill/drill_d
+		diffuseMap models/buildables/drill/drill
 		normalMap models/buildables/drill/drill_n
 		specularMap models/buildables/drill/drill_s
 	}
@@ -24,10 +24,10 @@ models/buildables/drill/drill
 
 models/buildables/drill/drill_dead
 {
-	qer_editorImage models/buildables/drill/drill_d
+	qer_editorImage models/buildables/drill/drill
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/drill/drill_d
+		diffuseMap models/buildables/drill/drill
 		normalMap models/buildables/drill/drill_n
 		specularMap models/buildables/drill/drill_s
 	}

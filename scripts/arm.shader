@@ -1,9 +1,9 @@
 models/buildables/arm/arm
 {
-	qer_editorImage models/buildables/arm/arm_d
+	qer_editorImage models/buildables/arm/arm
 	imageMinDimension 256
 	{
-		diffuseMap models/buildables/arm/arm_d
+		diffuseMap models/buildables/arm/arm
 		normalMap models/buildables/arm/arm_n
 		specularMap models/buildables/arm/arm_s
 		glowMap models/buildables/arm/arm_a
@@ -14,10 +14,10 @@ models/buildables/arm/arm
 
 models/buildables/arm/arm_off
 {
-	qer_editorImage models/buildables/arm/arm_d
+	qer_editorImage models/buildables/arm/arm
 	imageMinDimension 256
 	{
-		diffuseMap models/buildables/arm/arm_d
+		diffuseMap models/buildables/arm/arm
 		normalMap models/buildables/arm/arm_n
 		specularMap models/buildables/arm/arm_s
 	}
@@ -25,10 +25,10 @@ models/buildables/arm/arm_off
 
 models/buildables/arm/screen
 {
-	qer_editorImage models/buildables/arm/screen_d
+	qer_editorImage models/buildables/arm/screen
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/arm/screen_d
+		diffuseMap models/buildables/arm/screen
 		specularMap models/buildables/arm/screen_s
 	}
 }

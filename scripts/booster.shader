@@ -1,9 +1,9 @@
 models/buildables/booster/body
 {
-	qer_editorImage models/buildables/booster/booster_d
+	qer_editorImage models/buildables/booster/booster
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/booster/booster_d
+		diffuseMap models/buildables/booster/booster
 		normalMap models/buildables/booster/booster_n
 		specularMap models/buildables/booster/booster_s
 		glowMap models/buildables/booster/booster_a

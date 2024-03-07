@@ -1,10 +1,10 @@
 models/buildables/acid_tube/acid_tube
 {
-	qer_editorImage models/buildables/acid_tube/acid_tube_d
+	qer_editorImage models/buildables/acid_tube/acid_tube
 	qer_alphaFunc greater .5
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/acid_tube/acid_tube_d
+		diffuseMap models/buildables/acid_tube/acid_tube
 		normalMap models/buildables/acid_tube/acid_tube_n
 		specularMap models/buildables/acid_tube/acid_tube_s
 		glowMap models/buildables/acid_tube/acid_tube_a

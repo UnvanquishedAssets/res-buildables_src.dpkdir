@@ -1,9 +1,9 @@
 models/buildables/medistat/medistat
 {
-	qer_editorImage models/buildables/medistat/medistat_d
+	qer_editorImage models/buildables/medistat/medistat
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/medistat/medistat_d
+		diffuseMap models/buildables/medistat/medistat
 		normalMap models/buildables/medistat/medistat_n
 		specularMap models/buildables/medistat/medistat_s
 		specularExponentMin 10
@@ -16,10 +16,10 @@ models/buildables/medistat/medistat
 
 models/buildables/medistat/medistat_off
 {
-	qer_editorImage models/buildables/medistat/medistat_d
+	qer_editorImage models/buildables/medistat/medistat
 	imageMinDimension 128
 	{
-		diffuseMap models/buildables/medistat/medistat_d
+		diffuseMap models/buildables/medistat/medistat
 		normalMap models/buildables/medistat/medistat_n
 		specularMap models/buildables/medistat/medistat_s
 		specularExponentMin 10
