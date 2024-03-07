@@ -16,7 +16,7 @@ vertexarray blendindexes ubyte 4
 vertexarray blendweights ubyte 4
 
 mesh "core"
-material "models/buildables/reactor/reactor1"
+material "models/buildables/reactor/reactor_core"
 vp -6.16581869 -10.5672779 7.28747559
 vn 0.709582925 0.704615176 0.00308081345
 vx 0.704618514 -0.709586322 -1.08213544e-05 -1
@@ -17882,7 +17882,7 @@ fm 2768 2766 2764
 fm 2768 2764 2765
 
 mesh "arm"
-material "models/buildables/reactor/reactor2"
+material "models/buildables/reactor/reactor_arm"
 vp 4.58354092 17.5384808 36.888176
 vn 0.187225655 -0.046194274 -0.98123008
 vx 0.852141201 -0.489282429 0.18562898 1
@@ -38860,7 +38860,7 @@ fm 3382 3410 3386
 fm 3404 3386 3410
 
 mesh "foot"
-material "models/buildables/reactor/reactor1"
+material "models/buildables/reactor/reactor_core"
 vp -4.01109743 18.7256069 3.58752251
 vn -1.13150816e-06 -7.03027411e-07 1
 vx -0.701194227 0.712970316 -2.92169318e-07 1
