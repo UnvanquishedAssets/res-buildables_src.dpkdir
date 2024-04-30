@@ -1,4 +1,4 @@
-models/buildables/reactor/reactor1
+models/buildables/reactor/reactor_core
 {
 	qer_editorImage models/buildables/reactor/reactor_core
 	imageMinDimension 128
@@ -13,10 +13,10 @@ models/buildables/reactor/reactor1
 		blendfunc add
 		rgbGen wave sin 1 .85 .5 .08
 	}
-	when destroyed models/buildables/reactor/reactor1_dead
+	when destroyed models/buildables/reactor/reactor_core_dead
 }
 
-models/buildables/reactor/reactor1_dead
+models/buildables/reactor/reactor_core_dead
 {
 	qer_editorImage models/buildables/reactor/reactor_core
 	imageMinDimension 128
@@ -26,7 +26,7 @@ models/buildables/reactor/reactor1_dead
 	}
 }
 
-models/buildables/reactor/reactor2
+models/buildables/reactor/reactor_arm
 {
 	qer_editorImage models/buildables/reactor/reactor_arm
 	imageMinDimension 128
@@ -47,10 +47,10 @@ models/buildables/reactor/reactor2
 		blendfunc add
 		rgb .85 .85 .85
 	}
-	when destroyed models/buildables/reactor/reactor2_dead
+	when destroyed models/buildables/reactor/reactor_arm_dead
 }
 
-models/buildables/reactor/reactor2_dead
+models/buildables/reactor/reactor_arm_dead
 {
 	imageMinDimension 128
 	qer_editorImage models/buildables/reactor/reactor_arm
