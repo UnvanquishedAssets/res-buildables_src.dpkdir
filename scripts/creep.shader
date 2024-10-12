@@ -1,8 +1,8 @@
 gfx/buildables/creep/creep
 {
-	nopicmip
 	polygonoffset
 	twoSided
+	imageMinDimension 16
 	{
 		clamp
 		diffuseMap gfx/buildables/creep/creep_d
