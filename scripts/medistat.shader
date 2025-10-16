@@ -73,6 +73,7 @@ models/buildables/medistat/cross
 	imageMinDimension 128
 	{
 		map models/buildables/medistat/noise
+		rawColorMap
 		tcMod scale 5 5
 		blendfunc filter
 		rgbGen const ( .678431 .933333 .960784 )
@@ -81,6 +82,7 @@ models/buildables/medistat/cross
 	}
 	{
 		map models/buildables/medistat/noise2
+		rawColorMap
 		tcMod scale 1 1
 		blendfunc add
 		tcMod scroll -.1 -.1
@@ -88,6 +90,7 @@ models/buildables/medistat/cross
 	}
 	{
 		map models/buildables/medistat/h_grid
+		rawColorMap
 		tcMod scale 1 1
 		blendfunc add
 		tcMod scroll 0 .1
@@ -95,6 +98,7 @@ models/buildables/medistat/cross
 	}
 	{
 		map models/buildables/medistat/v_grid
+		rawColorMap
 		tcMod scale 1 1
 		blendfunc add
 		tcMod scroll .1 0
